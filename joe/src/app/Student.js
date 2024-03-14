@@ -7,6 +7,7 @@ let student = {
 const Student = () => {
     return (
         <div>
+            <p>something</p>
             <img src={student.img} alt="studentImage" width="500px"/>
             <h2>{student.name}</h2>
         </div>
