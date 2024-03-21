@@ -1,0 +1,123 @@
+.home_wrap {
+    min-height: 1500px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.listing_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+    justify-items: center;
+}
+.content_wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.video-container {
+    height: 650px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: left;
+}
+video{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.video-container .caption {
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    color: #ffffff;
+    padding: 10px;
+    border: white solid;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.caption {
+    font-size: 55px;
+}
+
+.caption a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-out;
+}
+.caption a:hover {
+    font-size: 60px;
+    color: #e97f54;
+}
+.caption {
+    font-size: 40px;
+}
+.caption a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-out;
+}
+.video-container video {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: fill;
+}
+.slide_cont {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+.slide_cont img {
+    width: 100%;
+    margin-bottom: -5px;
+    z-index: -1;
+}
+#left_icon {
+    width: 75px;
+    z-index: 1;
+    position: absolute;
+    transform: translateX(20%);
+    transition: 0.2s ease-out;
+    border-radius: 90px;
+}
+#left_icon:hover {
+    transform: translateX(20%) scale(1.1);
+    background-color: white;
+    opacity: 0.5;
+}
+#right_icon {
+    width: 75px;
+    z-index: 1;
+    position: absolute;
+    left: 100vw;
+    transform: translateX(-120%);
+    transition: 0.2s ease-out;
+    border-radius: 90px;
+}
+#right_icon:hover {
+    background-color: white;
+    opacity: 0.5;
+    transform: translateX(-120%) scale(1.1);
+}
+.overlay_image {
+    position: absolute;
+    margin-top: 450px;
+}
+.about_cont {
+    justify-content: center;
+    padding: 200px;
+}

@@ -1,0 +1,32 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 20px;
+}
+.header a {
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    color: white;
+    font-size: 28px;
+}
+.header .right a {
+    margin-left: 100px;
+}
+#img_logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    transition: 0.3s ease-in;
+    border-radius: 90px;
+}
+#img_logo:hover {
+    background-color: #ffffff;
+    border-radius: 90px;
+}
+.header .right a:hover {
+    color: indianred;
+}
