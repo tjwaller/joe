@@ -1,0 +1,24 @@
+.loggerin {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+.loggerin button {
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+    background-color: #c3c3c3;
+    transition: 0.3s ease-out;
+}
+.loggerin button:hover {
+    background-color: #eeb1a3;
+    transform: scale(1.05);
+}
+.loggerin input {
+    border-radius: 20px;
+    padding: 20px;
+    height: 25%;
+    width: 75%;
+}
