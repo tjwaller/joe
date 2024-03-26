@@ -87,7 +87,7 @@ video{
     z-index: -1;
 }
 #left_icon {
-    width: 75px;
+
     z-index: 1;
     position: absolute;
     transform: translateX(20%);
@@ -100,10 +100,9 @@ video{
     opacity: 0.5;
 }
 #right_icon {
-    width: 75px;
+
     z-index: 1;
     position: absolute;
-    left: 100vw;
     transform: translateX(-120%);
     transition: 0.2s ease-out;
     border-radius: 90px;
@@ -115,7 +114,6 @@ video{
 }
 .overlay_image {
     position: absolute;
-    margin-top: 450px;
 }
 .about_cont {
     justify-content: center;
