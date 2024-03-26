@@ -1,3 +1,11 @@
 .main_slide {
     margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.bordered * {
+    border-radius: 25px;
 }
